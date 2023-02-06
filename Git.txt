@@ -3,6 +3,55 @@
     1.- git init on terminal => git empty repo
     // git remote mean the name of my git server where we have to upload folders.
 
-    2. git remote add {origniName => dhiraj} {https://github.com/Dhirajchaudari/Laundry-cart.git}
-    // not sure about origniName should be different or same 
+    2. git remote add {remoteName => dhiraj} {https://github.com/Dhirajchaudari/Laundry-cart.git}
+    // not sure about remoteName should be different or same 
+
+    3. Now we are ready to upload files on git 
+
+    4. git add . => to add all files and to check the status => git status
+
+    5. Write comment => git commit  -m {writeComment => "git setUp"}
+
+    6. check your branchName => git branch
+
+    7. Now time to push the files to git 
+
+    8. git push -u {remoteName=> dhiraj} {branchName=> master}
+
+    9. After modification to upload the file again run the cmd => git add . or git add {fileName}
+
+    While upload{
+
+        1. git add . or git add {fileName}
+        2. git commit -m {writeComment => "I have made changes"}
+        3. git push
+        
+        }
+
   }
+
+
+
+* if you want unstage the upload file run cmd => git restore --staged {fileName} then check the status again
+
+* git log => to check the history 
+
+* git clone {url} => to copy whole  project from git to windows
+
+
+
+About braching {
+
+    1. we use branching to work separetly on project without affecting the main project
+    2. we should create seperate branch
+    3. to create seperate branch => git branch {newBranchName => testing}
+    4. Now we have create a new branch inside our main brnach 
+    5. to switch from main branch to newBranch => git checkout {newBranchName} 
+    6. to upload code from newBranch just go to your remoteName and newBranchName and
+       git push -u {remoteName-> dhiraj} {newBranchName => testing}
+
+
+    - to delete the branch => git branch -D {branchName}
+
+    
+}
