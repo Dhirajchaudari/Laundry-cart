@@ -1,0 +1,11 @@
+frontend
+npx create-react-app
+
+backend
+
+body-perser
+node-mone
+express
+mongoosse
+cors
+
