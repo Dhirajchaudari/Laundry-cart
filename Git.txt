@@ -1,0 +1,8 @@
+1. Login Dhiraj-git on Your windows - Steps
+  {
+    1.- git init on terminal => git empty repo
+    // git remote mean the name of my git server where we have to upload folders.
+
+    2. git remote add {origniName => dhiraj} {https://github.com/Dhirajchaudari/Laundry-cart.git}
+    // not sure about origniName should be different or same 
+  }
